@@ -51,7 +51,7 @@ def urls_brands():
 	return urls
 
 '''
-	Classe crawler para extrair os nomes de todas am empresas
+	Classe crawler para extrair os nomes de todas as empresas
 '''
 class BlogSpider(scrapy.Spider):
 	name = 'blogspider'
